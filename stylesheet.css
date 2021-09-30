@@ -103,6 +103,8 @@ h2 {
 
 .containertwo {
     display: flex;
+    height: 300px;
+    background-color: white;
  }
 
 .gallery {
@@ -112,16 +114,39 @@ h2 {
 
 .imgcap {
     text-align: center;
-    margin-right: 65px;
+    margin-right: 69px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     color: gray;
 }
 
-.action {
-    margin-top: 150px;
+.containerthree {
+    height: 250px;
+    margin-right: -20px;
+    margin-left: -20px;
+    background-color: #d3d3d3;
 }
 
 #quote {
+    font-size: 20px;
+    font-style: italic;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: gray;
+    display: flex;
+    justify-content: center;
+    padding-top: 70px;
+}
+
+.caption {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    display: flex;
+    justify-content: right;
+    margin-right: 350px;
+    margin-top: 20px;
+}
+
+.action {
     margin-top: 150px;
 }
 
