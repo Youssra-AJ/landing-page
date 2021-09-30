@@ -103,10 +103,31 @@ h2 {
 
 .containertwo {
     display: flex;
-    
+ }
+
+.gallery {
+    border: 5px solid #523b50;
+    border-radius: 10px;
 }
 
+.imgcap {
+    text-align: center;
+    margin-right: 65px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: gray;
+}
 
+.action {
+    margin-top: 150px;
+}
+
+#quote {
+    margin-top: 150px;
+}
+
+footer {
+    margin-top: 150px;
+}
   
 
 
