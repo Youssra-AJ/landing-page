@@ -1,5 +1,5 @@
 body {
-    height: 1000px;
+    height: 720px;
 }
 
 .navbar {
@@ -16,8 +16,9 @@ body {
 
 .navlinks {
     list-style-type: none;
+    font-size: 16px;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     position: relative;
     margin-right: -200px;
 }
@@ -29,7 +30,8 @@ body {
     position: relative;
     margin-right: 300px;
     margin-left: -500px;
-    padding-top: 35px;
+    padding-top: 30px;
+    margin-top: 10px;
 }
 
 .flex-items {
@@ -120,9 +122,10 @@ h2 {
 }
 
 .containerthree {
-    height: 250px;
+    height: 220px;
     margin-right: -20px;
     margin-left: -20px;
+    padding-bottom: 50px;
     background-color: #d3d3d3;
 }
 
@@ -147,26 +150,57 @@ h2 {
 }
 
 .action {
-    margin-top: 150px;
+    height: 200px;
+    color: white;
+    background-color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+}
+
+.actioncontainer {
+    width: 900px;
+    height: 100px;
+    background-color: dodgerblue;
+    padding-top: 10px;
+    margin-top: 80px;
+    margin-left: 170px;
+    border-radius: 10px;
+}
+
+
+#buttontwo {
+    height: 23px;
+    width: 110px;
+    color: white;
+    background-color: dodgerblue;
+    border: white solid 1px;
+    border-radius: 5px;
+    position: absolute;
+    margin-left: 700px;
+    margin-top: -40px;
+    padding: 3px;
+}
+
+.click {
+    margin-top: -20px;
+    margin-bottom: 10px;
+    margin-left: 80px;
+    font-weight: lighter;
+    font-size: 14px;
+}
+
+h3 {
+    margin-left: 80px;
+    margin-top: 30px;
 }
 
 footer {
-    margin-top: 150px;
+    height: 60px;
+    background-color: #523b50;
+    color: white;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding-top: 15px;
+    margin-left: -20px;
+    margin-right: -20px;
 }
-  
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
