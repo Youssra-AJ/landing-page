@@ -1,0 +1,1 @@
+This is a clone of a landing page project from The Odin Project, with minor changes according to personal style.

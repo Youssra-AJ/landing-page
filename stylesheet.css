@@ -1,9 +1,11 @@
 body {
     height: 720px;
+    width: 1220px;
 }
 
 .navbar {
     background-color: #523b50;
+    width: 1258px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -11,16 +13,15 @@ body {
     margin-right: -15px;
     margin-top: -10px;
     padding: 5px;
-    
+    padding-left: 10px;
 }
 
 .navlinks {
     list-style-type: none;
-    font-size: 16px;
     display: flex;
     justify-content: space-between;
     position: relative;
-    margin-right: -200px;
+    margin-right: -260px;
 }
 
 .logo {
@@ -35,25 +36,28 @@ body {
 }
 
 .flex-items {
-    margin-left: 30px;
+    margin-left: 60px;
 }  
 
 a {
     text-decoration: none;
     color: cornsilk;
-    font-size: 13px;
+    font-size: 17px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-left: 5px;
 }
 
 .container {
     background-color: #523b50;
-    margin-left: -10px;
-    margin-right: -15px;
-    padding: 10px;
+    margin-left: -8px;
+    margin-right: -20px;
+    padding: 8px;
     height: 300px;
+    width: 1255px;
     display: flex;
     flex-direction: column;
     align-items: baseline;
+    padding-right: -10px;
 }
 
 h1 {
@@ -61,14 +65,14 @@ h1 {
     font-size: 40px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-weight: bold;
-    margin-left: 50px;
+    margin-left: 80px;
 }
 
 .paragraph {
     color: #FFFDF6;
     font-size: 14px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    margin-left: 50px;
+    margin-left: 80px;
     margin-top: -20px;   
 }
 
@@ -79,8 +83,9 @@ h1 {
     height: 28px;
     border-radius: 8px;
     border: none;
-    margin-left: 50px;
+    margin-left: 80px;
 }
+
 .image {
     width: 410px; 
     height: 220px;
@@ -91,7 +96,7 @@ h1 {
     font-size: small;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     position: relative;
-    margin-left: 460px;
+    margin-left: 520px;
     margin-top: -280px;
     padding: 80px;
     padding-bottom: 45px;
@@ -100,7 +105,6 @@ h1 {
 h2 {
     text-align: center;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    
 }
 
 .containertwo {
@@ -112,18 +116,22 @@ h2 {
 .gallery {
     border: 5px solid #523b50;
     border-radius: 10px;
+    margin-left: 40px;
 }
 
 .imgcap {
     text-align: center;
+    line-break: strict;
+    font-size: 14px;
     margin-right: 69px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     color: gray;
+    margin-left: 70px;
 }
 
 .containerthree {
     height: 220px;
-    margin-right: -20px;
+    margin-right: -40px;
     margin-left: -20px;
     padding-bottom: 50px;
     background-color: #d3d3d3;
@@ -153,8 +161,7 @@ h2 {
     height: 200px;
     color: white;
     background-color: white;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    
+    font-family: Verdana, Geneva, Tahoma, sans-serif;  
 }
 
 .actioncontainer {
@@ -166,7 +173,6 @@ h2 {
     margin-left: 170px;
     border-radius: 10px;
 }
-
 
 #buttontwo {
     height: 23px;
@@ -202,5 +208,5 @@ footer {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     padding-top: 15px;
     margin-left: -20px;
-    margin-right: -20px;
+    margin-right: -42px;
 }
